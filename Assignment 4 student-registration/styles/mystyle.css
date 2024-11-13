@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2795d1;
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Login Page Styles */
+main {
+    margin-top: 50px;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #2795d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217ca3;
+}
+
+/* Table Styles */
+table {
+    margin: 30px auto;
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2795d1;
+    color: white;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+#total {
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: 10px;
+}
+
+/* Misc */
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
