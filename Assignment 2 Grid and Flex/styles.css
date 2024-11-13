@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50; /* Changed to green */
+    background-color: #4CAF50; 
     color: white;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ header nav ul li a {
 }
 
 .featured {
-    background-color: #FFDD57; /* Changed to yellow */
+    background-color: #FFDD57; 
     padding: 40px;
     text-align: center;
 }
@@ -63,7 +63,7 @@ header nav ul li a {
 }
 
 .secondary .article, .secondary .sidebar {
-    background-color: #9e9e9e; /* Changed to a lighter gray */
+    background-color: #9e9e9e; 
     padding: 20px;
     flex-basis: 20%;
     text-align: center;

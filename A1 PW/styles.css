@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -22,7 +22,7 @@ p {
     font-size: 1.2em;
 }
 
-/* Navigation Menu Styles */
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -45,7 +45,6 @@ nav ul li a:hover {
     background-color: #111;
 }
 
-/* Section Styles */
 section {
     padding: 20px;
     margin: 20px 0;
@@ -60,7 +59,6 @@ section {
     margin: 0 auto;
 }
 
-/* Photo gallery styles */
 .photo-gallery {
     display: flex;
     justify-content: center;
@@ -71,12 +69,12 @@ section {
 .photo {
     width: 200px;
     height: 200px;
-    object-fit: cover;  /* Makes sure the images maintain aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Form Styles */
+
 form {
     display: flex;
     flex-direction: column;
@@ -118,7 +116,6 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Footer Styles */
 footer {
     background-color: #333;
     color: white;

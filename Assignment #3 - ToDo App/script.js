@@ -23,7 +23,7 @@ addTaskBtn.addEventListener("click", function() {
         });
 
         deleteBtn.addEventListener("click", function() {
-            li.remove(); // Remove the task item
+            li.remove(); 
         });
 
         const buttonContainer = document.createElement("div");

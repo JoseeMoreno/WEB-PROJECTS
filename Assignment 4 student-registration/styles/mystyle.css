@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Lato', sans-serif;
     background-color: #f4f4f4;
@@ -12,7 +12,7 @@ header {
     background-color: #2795d1;
     padding: 20px;
     margin: 1rem;
-    border-radius: 40px;
+    border-radius: 45px;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
     color: white;
 }
 
-/* Login Page Styles */
+
 main {
     margin-top: 50px;
 }
@@ -54,7 +54,7 @@ input[type="email"] {
     margin: 10px auto;
 }
 
-/* Button Styles */
+
 button {
     padding: 10px 20px;
     font-size: 1.1rem;
@@ -69,7 +69,7 @@ button:hover {
     background-color: #217ca3;
 }
 
-/* Table Styles */
+
 table {
     margin: 30px auto;
     width: 90%;
@@ -98,7 +98,7 @@ table td {
     margin-left: 10px;
 }
 
-/* Misc */
+
 .title-container {
     display: flex;
     justify-content: center;
